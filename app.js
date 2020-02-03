@@ -18,5 +18,25 @@ let whitecontainer = document.getElementById('white');
 const allRed = () =>{
     greencontainer.style.backgroundColor='red';
     bluecontainer.style.backgroundColor='red';
+    redcontainer.style.backgroundColor='red';
+}
 
+const allGreen = () =>{
+    greencontainer.style.backgroundColor='green';
+    bluecontainer.style.backgroundColor='green';
+    redcontainer.style.backgroundColor='green';
+
+}
+
+const allBlue = () =>{
+    greencontainer.style.backgroundColor='blue';
+    bluecontainer.style.backgroundColor='blue';
+    redcontainer.style.backgroundColor='blue';
+
+}
+
+const allNormal = () =>{
+    greencontainer.style.backgroundColor='green';
+    bluecontainer.style.backgroundColor='blue';
+    redcontainer.style.backgroundColor='red';
 }

@@ -1,55 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Bebas+Neue&display=swap');
-html{
-    max-width: 980px;
-}
-body{
+
+html {
     max-width: 980px;
 }
 
-.mainModule{
+body {
+    max-width: 980px;
+}
+
+.mainModule {
     margin: 0 auto;
     padding-top: 5%;
     width: 100%;
 }
 
-.colorwayContainer{
+.colorwayContainer {
     background-color: green;
     height: 10rem;
     margin: 0 auto;
     margin-bottom: 2%;
     width: 100%;
-    max-width: 230px;   
+    max-width: 230px;
     border-width: 5px;
     border-color: black;
-    border-style: solid; 
+    border-style: solid;
 }
-.changeBtn{
-    height: 2.2rem; 
-    width:45%; 
-    margin: -20px -50px; 
-    position:relative;
-    top:50%; 
-    left:50%;
+
+.changeBtn {
+    height: 2.2rem;
+    width: 45%;
+    margin: -20px -50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
     border-radius: 25px;
     font-family: 'Bebas Neue', cursive;
     font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    box-shadow: 0 5px #999
 }
 
-.changeBtn:hover{
-    background-color: green;
+.changeBtn:hover {
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
+    color: black;
 }
 
-#red{
+.changeBtn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+#red {
     background-color: red;
 }
 
-#green{
+#green {
     background-color: green;
 }
-#blue{
+
+#blue {
     background-color: blue;
 }
-#white{
+
+#white {
     background-color: white;
+}
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
+.primaryP{
+    font-family: 'Bebas Neue', cursive;
+}
+.fab{
+    font-size: 2.5rem;
+    color: black;
+}
+.fab:hover{
+    color: rgb(6, 113, 155);
 }
