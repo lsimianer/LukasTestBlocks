@@ -1,12 +1,8 @@
 // im doing this in vanilla javascript becuase when possible i like to avoid using libraries unless the architect or senior developer says otherwise
 
-// declare all the controllers and things wee need to control. 
+// declare all the controllers and things we need to control. 
 // due to repetition in this case I will make them global, typically local/block scope is preferable depending on use case
 
-let redButton = document.getElementById('btn1');
-let greenButton = document.getElementById('btn1');
-let blueButton = document.getElementById('btn1');
-let whiteButton = document.getElementById('btn1');
 // define containers
 let redcontainer = document.getElementById('red');
 let greencontainer = document.getElementById('green');
